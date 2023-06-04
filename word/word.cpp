@@ -4,6 +4,11 @@ using namespace std;
 
 int main() {
     char s[100];
+
+    for (int i = 0; i < 100; i++) {
+        s[i] = ' ';
+    }
+
     cin >> s;
 
     int lower = 0;
@@ -12,7 +17,7 @@ int main() {
         if (islower(s[i])) {
             lower++;
         }
-        else {
+        else if (isupper(s[i])) {
             upper++;
         }
     }
