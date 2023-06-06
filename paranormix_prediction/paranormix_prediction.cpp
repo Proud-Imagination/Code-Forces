@@ -19,13 +19,13 @@ int main() {
     cin >> n >> m;
 
     for (int i = n + 1; i <= m; i++) {
-        if (check_prime(i) && i == m) {
-            cout << "YES";
-            return 0;
-        }
-        else if (check_prime(i) && i != m) {
-            cout << "NO";
-            return 0;
+        if (check_prime(i)) {
+            if (i == m) {
+                cout << "YES"; return 0;
+            }
+            else {
+                cout << "NO"; return 0;
+            }
         }
     }
     cout << "NO";
