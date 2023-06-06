@@ -1,3 +1,3 @@
-# Code-Forces A2OJ Ladder
+# Code-Forces 
 
-These are my solutions for the Codeforces problems in the A2OJ Ladder.
+These are my solutions for the Codeforces problems I solve as I try to improve my skills.
